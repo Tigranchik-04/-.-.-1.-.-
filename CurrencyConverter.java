@@ -8,9 +8,12 @@ public class CurrencyConverter {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите сумму в долларах: ");
-        int dollars = scanner.nextInt();
+        double dollars = scanner.nextDouble();
 
         double roubles = ROUBLES_PER_DOLLAR * dollars;
         System.out.printf("Сумма в рублях: %.2f%n", roubles);
+
+        scanner.close();
+        System.out.println("Конвертация успешно завершена.");
     }
 }
