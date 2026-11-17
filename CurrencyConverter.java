@@ -14,6 +14,6 @@ public class CurrencyConverter {
         System.out.printf("Сумма в рублях: %.2f%n", roubles);
 
         scanner.close();
-        System.out.println("Конвертация успешно завершена.");
+        System.out.println("Конвертация в Евро успешно завершена.");
     }
 }
